@@ -1,3 +1,3 @@
-# Kokoa Ckoning 2021
+# Kakao Cloning
 
-first project
+HTML, CSS
