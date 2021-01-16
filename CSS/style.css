@@ -8,10 +8,13 @@
 
 @import "main/friends/nav_bar.css";
 @import "main/friends/screen_header.css";
+@import "main/friends/friends_link.css";
+@import "main/friends/user_component.css";
 
 body {
   padding-top: 20px;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
+  color: #2e363e;
   align-items: center;
 }
