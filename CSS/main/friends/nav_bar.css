@@ -14,4 +14,25 @@
 
 .nav_bar__link {
   color: #2e363e;
+  position: relative;
+}
+.nav_bar__notification {
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  font-weight: 700;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+.nav_bar__nonum {
+  width: 8px;
+  height: 8px;
+  left: 30px;
+  bottom: 27px;
 }
