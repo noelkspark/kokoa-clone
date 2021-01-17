@@ -1,0 +1,32 @@
+.find_bar {
+  display: flex;
+  justify-content: space-between;
+}
+.find_bar__icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.find_bar__icons i {
+  font-size: 35px;
+}
+.find_bar__icons span {
+  margin-top: 18px;
+}
+.recommended_friends {
+  border-top: var(--default_border);
+  border-bottom: var(--default_border);
+  margin: 25px 0px;
+  padding: 25px 0px;
+}
+.recommended_friends__title {
+  font-size: 14px;
+  color: var(--default_color);
+}
+.recommended_friends span {
+  margin: 110px 0px;
+  display: block;
+  color: var(--default_color);
+  text-align: center;
+  font-size: 18px;
+}

@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="CSS/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kakao</title>
+    <title>Chats - Kakao</title>
   </head>
   <body>
     <div class="status_bar">
@@ -23,75 +23,51 @@
     </div>
 
     <header class="screen_header">
-      <h1 class="screen_header__title">Friends</h1>
+      <h1 class="screen_header__title">Chats</h1>
       <div class="screen_header__icon">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
         <span class="setting_notify"></span>
       </div>
     </header>
 
-    <a id="friends_display_link">
-      <i class="fas fa-info-circle"></i>
-      Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
     <main class="main_screen">
-      <div class="user_info">
-        <div class="user_info__column">
-          <img
-            src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
-            class="user_info__avatar big_avatar"
-          />
-          <div class="user_info__text">
-            <h4 class="user_info__name">Kiseo</h4>
-            <h6 class="user_info__status_msg">Cloning KAKAO TALK</h6>
-          </div>
-        </div>
-        <div class="user_info__column"></div>
-      </div>
-  
-      <div class="channel">
-        <div class="channel__header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up"></i>
-        </div>
-      </div>
-
+      <a href="chatting.html">
         <div class="user_info">
           <div class="user_info__column">
             <img
-              src="https://t1.daumcdn.net/cfile/tistory/2467AD50574F5FEA35"
+              src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
               class="user_info__avatar"
             />
             <div class="user_info__text">
-              <h4 class="user_info__name not_bold">Kakao Friends</h4>
+              <h4 class="user_info__name">My Best Friend</h4>
+              <h6 class="user_info__status_msg">Happy Birthday!</h6>
             </div>
           </div>
-            <div class="user_info__column">
-              <div>
-                <span>2</span>
-                <i class="fas fa-chevron-right"></i>
-              </div>
-            </div>
+          <div class="user_info__column">
+            <span class="user_info__time">12:00 AM</span>
+            <div class="user_info__chat_num">2</div>
           </div>
         </div>
-      </div>
+      </a>
     </main>
+
     <nav class="nav_bar">
       <ul class="nav_bar__list">
         <li class="nav_bar__btn">
           <a class="nav_bar__link" href="friends.html"
-            ><i class="fas fa-user fa-2x"></i>
+            ><i class="far fa-user fa-2x"></i>
           </a>
         </li>
         <li class="nav_bar__btn">
           <a class="nav_bar__link" href="chats.html">
             <span class="nav_bar__notification">2</span>
-            <i class="far fa-comment fa-2x"></i
-          ></a>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
         </li>
         <li class="nav_bar__btn">
           <a class="nav_bar__link" href="find.html">
@@ -99,7 +75,7 @@
           </a>
         </li>
         <li class="nav_bar__btn">
-          <a class="nav_bar__link" href="mind.html"
+          <a class="nav_bar__link" href="more.html"
             ><span class="nav_bar__notification nav_bar__nonum"></span>
             <i class="fas fa-ellipsis-h fa-2x"></i>
           </a>

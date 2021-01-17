@@ -1,0 +1,14 @@
+.channel {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  padding-top: 15px;
+  border-top: var(--default_border);
+  color: rgba(0, 0, 0, 0.5);
+}
+.channel__header {
+  display: flex;
+  justify-content: space-between;
+}
+.not_bold {
+  font-weight: 400;
+}

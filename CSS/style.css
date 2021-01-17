@@ -9,7 +9,22 @@
 @import "main/friends/nav_bar.css";
 @import "main/friends/screen_header.css";
 @import "main/friends/friends_link.css";
+@import "main/friends/channel_header.css";
 @import "main/friends/user_component.css";
+
+@import "chat/user_component.css";
+
+@import "find/status_bar.css";
+@import "find/find_bar.css";
+@import "find/open_chat.css";
+@import "find/open_post.css";
+
+@import "more/more_header.css";
+@import "more/suggestions.css";
+
+@import "settings/header.css";
+
+@import "chatting/header.css";
 
 body {
   padding-top: 20px;
@@ -17,4 +32,8 @@ body {
   font-weight: 600;
   color: #2e363e;
   align-items: center;
+}
+
+.main_screen {
+  padding: 0px var(--horizontal_space);
 }

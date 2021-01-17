@@ -1,0 +1,12 @@
+.screen_header__icon {
+  position: relative;
+}
+.setting_notify {
+  background-color: tomato;
+  border-radius: 50%;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  right: -5px;
+  top: -9px;
+}

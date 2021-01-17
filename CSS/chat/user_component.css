@@ -1,0 +1,17 @@
+.user_info__chat_num {
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  font-weight: 700;
+  left: 15px;
+  bottom: 15px;
+}
+.user_info__time {
+  display: block;
+  margin-bottom: 10px;
+}
