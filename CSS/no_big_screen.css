@@ -1,0 +1,18 @@
+#no_big_screen {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: rgb(243, 231, 2);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+
+@media screen and (max-width: 550px) and (min-height: 770px) and (orientation: portrait) {
+  #no_big_screen {
+    visibility: hidden;
+  }
+}

@@ -17,3 +17,15 @@
 .friends_screen {
   padding: 0px var(--horizontal_space);
 }
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.screen_header__icon .fa-cog:hover {
+  animation: rotateCog 1s linear infinite;
+}

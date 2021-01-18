@@ -57,3 +57,21 @@
 .open_post__likes span {
   margin-left: 3px;
 }
+
+@keyframes heartbeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+  }
+}
+
+.open_post__column:hover .open_post__likes {
+  animation: heartbeat 1s ease-in-out;
+}
