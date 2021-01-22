@@ -11,7 +11,7 @@
   top: 0;
 }
 
-@media screen and (max-width: 550px) and (min-height: 770px) and (orientation: portrait) {
+@media screen and (max-width: 550px) and (min-height: 770px) {
   #no_big_screen {
     visibility: hidden;
   }
